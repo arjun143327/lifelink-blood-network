@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
